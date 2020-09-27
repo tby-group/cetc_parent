@@ -6,9 +6,9 @@ spring:
     name: cetc-notice #指定服务名
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://cetc-mysql:3306/cetc_notice?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false&serverTimezone=GMT%2B8
+    url: jdbc:mysql://cetc-mysql:33306/cetc_notice?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false&serverTimezone=GMT%2B8
     username: root
-    password: 123456
+    password: Chuanglian@123
     hikari:
       minimum-idle: 5
       maximum-pool-size: 20

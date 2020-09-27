@@ -5,10 +5,10 @@ spring:
   application:
     name: cetc-project
   datasource:
-    url: jdbc:mysql://cetc-mysql:3306/cetc_qc?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf8
+    url: jdbc:mysql://cetc-mysql:33306/cetc_qc?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false&serverTimezone=GMT%2B8
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
-    password: 123456
+    password: Chuanglian@123
   servlet:
     multipart:
       max-request-size: 20MB
@@ -73,9 +73,9 @@ org:
       started: true
       hmilyDbConfig :
         driverClassName  : com.mysql.cj.jdbc.Driver
-        url :  jdbc:mysql://cetc-mysql:3306/cetc_hmily?useUnicode=true
+        url :  jdbc:mysql://cetc-mysql:33306/cetc_hmily?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false&serverTimezone=GMT%2B8
         username : root
-        password : 123456
+        password : Chuanglian@123
 #feign的配置
 feign:
   hystrix:                                 #此配置表示开启feign的熔断

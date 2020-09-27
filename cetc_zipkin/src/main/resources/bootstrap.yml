@@ -11,8 +11,8 @@ spring:
     type: com.zaxxer.hikari.HikariDataSource
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
-    password: 123456
-    url: jdbc:mysql://cetc-mysql:3306/cetc_zipkin?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false&serverTimezone=GMT%2B8
+    password: Chuanglian@123
+    url: jdbc:mysql://cetc-mysql:33306/cetc_zipkin?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false&serverTimezone=GMT%2B8
 zipkin:
   storage:
     type: mysql
@@ -47,6 +47,6 @@ eureka:
     registerWithEureka: true
     fetchRegistry: true
     serviceUrl:
-        defaultZone: http://cetc-eureka:1111/eureka/
+        defaultZone: http://cetc-eureka:9800/eureka/
 
 
